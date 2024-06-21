@@ -40,7 +40,7 @@
 // }
 //swich case
 //1
-// let day = 3;
+// let day = 10;
 // let days;
 // switch (day) {
 // 	case 0:
@@ -67,3 +67,61 @@
 // 	default:
 // 		days = "Noto'g'ri kun";
 // }
+// console.log(days);
+//2
+// let maosh = 10;
+// let soliq;
+// switch (maosh) {
+// 	case 10:
+// 		soliq = 'Sizning soliq miqdoringiz 1%';
+// 		break;
+// 	case 20:
+// 		soliq = 'Sizning soliq miqdoringiz 2%';
+// 		break;
+// 	case 30:
+// 		soliq = 'Sizning soliq miqdoringiz 3%';
+// 		break;
+// 	case 40:
+// 		soliq = 'Sizning soliq miqdoringiz 4%';
+// 		break;
+// 	case 50:
+// 		soliq = 'Sizning soliq miqdoringiz 5%';
+// 		break;
+// 	case 60:
+// 		soliq = 'Sizning soliq miqdoringiz 6%';
+// 		break;
+// 	case 70:
+// 		soliq = 'Sizning soliq miqdoringiz 7%';
+// 		break;
+// 	default:
+// 		soliq = "Noto'g'ri miqdor kiritdingiz";
+// }
+// console.log(soliq);
+//3
+// let oy = 1;
+// let fasil;
+// switch (oy) {
+// 	case 12:
+// 	case 1:
+// 	case 2:
+// 		fasil = 'qish';
+// 		break;
+// 	case 3:
+// 	case 4:
+// 	case 5:
+// 		fasil = 'Bahor';
+// 		break;
+// 	case 6:
+// 	case 7:
+// 	case 8:
+// 		fasil = 'Yoz';
+// 		break;
+// 	case 9:
+// 	case 10:
+// 	case 11:
+// 		fasil = 'Kuz';
+// 		break;
+// 	default:
+// 		fasil = "Noto'g'ri miqdor kiritdingiz";
+// }
+// console.log(fasil);
