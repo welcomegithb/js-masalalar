@@ -125,3 +125,82 @@
 // 		fasil = "Noto'g'ri miqdor kiritdingiz";
 // }
 // console.log(fasil);
+//4
+// let mamlakatlar = 'Uzb';
+// let poytaxt;
+// switch (mamlakatlar) {
+// 	case 'Uzb':
+// 		poytaxt = 'Toshkent';
+// 		break;
+// 	case 'Use':
+// 		poytaxt = 'Washington';
+// 		break;
+// 	case 'Yaponiya':
+// 		poytaxt = 'Tokio';
+// 		break;
+// 	case 'Newyork':
+// 		poytaxt = 'Parij';
+// 		break;
+// 	case 'Xitoy':
+// 		poytaxt = 'Pekin';
+// 		break;
+// 	default:
+// 		poytaxt = 'Bunday poytaxt mavjud emas';
+// }
+// console.log(poytaxt);
+//5
+// let kun = 1;
+// let hafta;
+// switch (kun) {
+// 	case 1:
+// 		hafta = 'Yakshanba';
+// 		break;
+// 	case 2:
+// 		hafta = 'Dushanba';
+// 		break;
+// 	case 3:
+// 		hafta = 'Seshanba';
+// 		break;
+// 	case 4:
+// 		hafta = 'Chorshanba';
+// 		break;
+// 	case 5:
+// 		hafta = 'Payshanba';
+// 		break;
+// 	case 6:
+// 		hafta = 'Juma';
+// 		break;
+// 	case 7:
+// 		hafta = 'Shanba';
+// 		break;
+// 	default:
+// 		hafta = "Noto'g'ri kun";
+// }
+// console.log(hafta);
+//6
+let fasil = 'Qish';
+let oylar;
+switch (fasil) {
+	case 'Qish':
+		oylar = ('Dekabr', 'Yanvar', 'Fevral');
+
+		break;
+	case 'Bahor':
+		oylar = 'Mart';
+		oylar = 'Aprel';
+		oylar = 'May';
+		break;
+	case 'Yoz':
+		oylar = 'Iyun';
+		oylar = 'Iyul';
+		oylar = 'Avgust';
+		break;
+	case 'Kuz':
+		oylar = 'Sentyabr';
+		oylar = 'Oktyabr';
+		oylar = 'Noyabr';
+		break;
+	default:
+		fasil = 'bunday fasil mavjud emas';
+}
+console.log(oylar);
