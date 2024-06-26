@@ -255,12 +255,12 @@
 // let upperCaseString = toUpperCase(mystring);
 // console.log(upperCaseString);
 
-10;
-let b = function (num) {
-	return String(num);
-};
+// 10;
+// let b = function (num) {
+// 	return String(num);
+// };
 
-let num = 123323;
-let string = b(num);
-console.log(string);
-console.log(typeof string);
+// let num = 123323;
+// let string = b(num);
+// console.log(string);
+// console.log(typeof string);
