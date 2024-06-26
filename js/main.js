@@ -178,29 +178,89 @@
 // }
 // console.log(hafta);
 //6
-let fasil = 'Qish';
-let oylar;
-switch (fasil) {
-	case 'Qish':
-		oylar = ('Dekabr', 'Yanvar', 'Fevral');
+// let fasil = 'Qish';
+// let oylar;
+// switch (fasil) {
+// 	case 'Qish':
+// 		oylar = ('Dekabr', 'Yanvar', 'Fevral');
 
-		break;
-	case 'Bahor':
-		oylar = 'Mart';
-		oylar = 'Aprel';
-		oylar = 'May';
-		break;
-	case 'Yoz':
-		oylar = 'Iyun';
-		oylar = 'Iyul';
-		oylar = 'Avgust';
-		break;
-	case 'Kuz':
-		oylar = 'Sentyabr';
-		oylar = 'Oktyabr';
-		oylar = 'Noyabr';
-		break;
-	default:
-		fasil = 'bunday fasil mavjud emas';
-}
-console.log(oylar);
+// 		break;
+// 	case 'Bahor':
+// 		oylar = 'Mart';
+// 		oylar = 'Aprel';
+// 		oylar = 'May';
+// 		break;
+// 	case 'Yoz':
+// 		oylar = 'Iyun';
+// 		oylar = 'Iyul';
+// 		oylar = 'Avgust';
+// 		break;
+// 	case 'Kuz':
+// 		oylar = 'Sentyabr';
+// 		oylar = 'Oktyabr';
+// 		oylar = 'Noyabr';
+// 		break;
+// 	default:
+// 		fasil = 'bunday fasil mavjud emas';
+// }
+// console.log(oylar);
+//function
+// 1;
+// let a = function () {
+// 	console.log('salom dunyo');
+// };
+// a();
+
+// 2;
+// let y = function () {
+// 	let a = 3;
+// 	console.log(a);
+// };
+// y();
+
+// 3;
+// let x = function () {
+// 	let a = 3;
+// 	let b = 5;
+// 	console.log(a + b);
+// };
+// x();
+
+// 4;
+// let d = function (ism) {
+// 	console.log(`salom ${ism}`);
+// };
+// d();
+
+// 5;
+// let h = function () {
+// 	let a = 3;
+// 	console.log((a = 2));
+// };
+// h();
+
+// 6;
+// let g = function () {
+// 	let a = 3;
+// 	let b = 5;
+// 	console.log(a * b);
+// };
+// g();
+
+// 9;
+// let toUpperCase = function (str) {
+// 	return str.toUpperCase();
+// };
+// let mystring = 'muhammadrizo';
+// let upperCaseString = toUpperCase(mystring);
+// console.log(upperCaseString);
+
+10;
+let b = function (num) {
+	return String(num);
+};
+
+let num = 123323;
+let string = b(num);
+console.log(string);
+console.log(typeof string);
