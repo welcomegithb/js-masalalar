@@ -264,3 +264,8 @@
 // let string = b(num);
 // console.log(string);
 // console.log(typeof string);
+
+let x = function (a, b) {
+	console.log(a * b);
+};
+x(2, 5);
