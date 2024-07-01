@@ -265,7 +265,41 @@
 // console.log(string);
 // console.log(typeof string);
 
-let x = function (a, b) {
-	console.log(a * b);
-};
-x(2, 5);
+// let x = function (a, b) {
+// 	console.log(a * b);
+// };
+// x(2, 5);
+// Math masalar
+// 1
+// console.log(Math.floor(7.9));
+// 2
+// console.log(Math.ceil(8.1));
+// 3
+// console.log(Math.round(4.9));
+// 4
+// let x = 12;
+// console.log(Math.abs(x));
+// 5
+// console.log(Math.sqrt(22));
+// 6
+// console.log(Math.pow(7, 2));
+// 7
+// let randomValue = Math.random();
+// console.log(randomValue);
+// 8
+// let random = Math.round(Math.random() * 10);
+// console.log(random);
+// 9
+// console.log(Math.PI);
+// 10
+// let a = 6;
+// let b = 8;
+// console.log((a + b) / 2);
+// 11
+// let t = 4;
+// let y = 8;
+// console.log(Math.max(t * y));
+// 12
+// let t = 4;
+// let y = 8;
+// console.log(Math.max(t / y));
