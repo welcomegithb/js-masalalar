@@ -303,3 +303,163 @@
 // let t = 4;
 // let y = 8;
 // console.log(Math.max(t / y));
+// dom mavzusi masala
+// 1. Elementdagi Matnni Olish
+// Sharti: Berilgan elementning idsi bo'yicha elementni toping va uning matnini konsolga chiqaring.
+// const eltitle = document.querySelector('#title');
+// console.log(eltitle.textContent);
+// 2. Elementdagi HTMLni Olish
+// Sharti: Berilgan elementning idsi bo'yicha elementni toping va uning ichidagi HTML kodini konsolga chiqaring.
+// const eltitle = document.querySelector('#title');
+// console.log(eltitle);
+// 3. Matnni Yangilash
+// Sharti: Berilgan elementning matnini yangilang.
+// const eltitle = document.querySelector('#title');
+// eltitle.textContent = 'React kirish';
+// 4. HTMLni Yangilash
+// Sharti: Berilgan elementning ichidagi HTML kodini yangilang.
+// 5. Matnni Qo'shish
+// Sharti: Berilgan elementga matn qo'shing, lekin mavjud matnni o'zgartirmang.
+// const eltitle = document.querySelector('#title');
+// eltitle.textContent += ' + React kirish';
+// 7. Matnni O'chirish
+// Sharti: Berilgan elementning barcha matnini o'chiring.
+// const eltitle = document.querySelector('#title');
+// eltitle.textContent = '';
+// 8. HTMLni O'chirish
+// Sharti: Berilgan elementning ichidagi barcha HTML kodini o'chiring.
+// setattribute va getattribute uchun masalalar:
+// const eltitle = document.querySelector('#title');
+// eltitle.innerHTML = '';
+// 1. ID Atributini yarating
+// Sharti: Elementga yangi id atributini  qo'shing.
+// const eltitle = document.querySelector('#title');
+// console.log(eltitle.getAttribute('id'));
+// const newid = eltitle.setAttribute('id', 'TITLE');
+// console.log(newid);
+// masala js va css style
+// 1. Tugmani bosganda matn rangini o'zgartirish
+// Shart:
+// Tugma bosilganda <p> elementining matn rangini qizilga o'zgartiring.
+// const elTitle = document.querySelector('.title');
+// const elBTN = document.querySelector('.btn');
+// elBTN.addEventListener('click', () => {
+//   elTitle.style.color = 'red';
+// });
+// 2. Boshqa elementni bosganda biror elementning ko'rinishini o'zgartirish
+// Shart:
+// Tugmani bosganda <div> elementining kengligini va balandligini o'zgartiring.
+// const elText = document.querySelector('.text');
+// const elBTN = document.querySelector('.btn');
+// elBTN.addEventListener('click', () => {
+//   elText.style.width = '320px';
+//   elText.style.height = '320px';
+// });
+// 3.Matnni kattalashtirish
+// Shart:
+// Tugmani bosganda <p> elementining shrift o'lchamini kattalashtiring.
+// const elBTN = document.getElementById('btn');
+// const elText = document.querySelector('#text');
+
+// elBTN.addEventListener('click', () => {
+//   elText.style.fontSize = '50px';
+// });
+// const elTitle = document.querySelector('#title');
+// const elBtn = document.querySelector('#btn');
+// elBtn.addEventListener('click', () => {
+//   elTitle.classList.toggle('hidden');
+// });
+// 5.Orqa fon rasmni o'zgartirish
+// Shart:
+// Tugmani bosganda elementning orqa fon rasmni o'zgartiring.
+// const elTitle = document.querySelector('#title');
+// const elBtn = document.querySelector('#btn');
+// elBtn.addEventListener('click', () => {
+//   elTitle.style.backgroundImage = 'url(../img/images.png)';
+// });
+
+// 6.Border radiusni o'zgartirish
+// Shart:
+// Tugmani bosganda <div> elementining border radiusini o'zgartiring.
+// const eldiv = document.querySelector('#mydiv');
+// const elBtn = document.querySelector('.btn');
+// elBtn.addEventListener('click', () => {
+// 	eldiv.style.borderRadius = '50px';
+// });
+// 11.Marginni o'zgartirish
+// Shart:
+// Tugmani bosganda <div> elementining yuqori margini 50px ga oshiring.
+// const eldiv = document.querySelector('#mydiv');
+// const elBtn = document.querySelector('.btn');
+// elBtn.addEventListener('click', () => {
+// 	eldiv.style.margin += '50px';
+// });
+// 12.Paddingni o'zgartirish
+// Shart:
+// Tugmani bosganda <div> elementining ichki masofasini (padding) 20px ga oshiring.
+// const eldiv = document.querySelector('#mydiv');
+// const elBtn = document.querySelector('.btn');
+// elBtn.addEventListener('click', () => {
+// 	eldiv.style.padding += '20px';
+// });
+// 13.Maxsus CSS class qo'shish
+// Shart:
+// Tugmani bosganda <div> elementiga maxsus CSS klassni qo'shing.
+// const elBtn = document.querySelector('.btn');
+// const eldiv = document.querySelector('#mydiv');
+// elBtn.addEventListener('click', () => {
+// 	eldiv.classList.toggle('mydiv2');
+// });
+// js&child va parent masalalari
+// 1. Parent Elementni Topish
+// Shart: Berilgan elementning parent elementini toping.
+// const elchild = document.querySelector('.child');
+// const parent = elchild.parentElement;
+// console.log(parent);
+// 2. Children Elementlarni Topish
+// Shart: Berilgan elementning barcha children elementlarini toping.
+// const elparent = document.querySelector('.parent');
+// const allchild = elparent.children;
+// console.log(allchild);
+// 3. Keyingi Sibling Elementni Topish
+// Shart: Berilgan elementning keyingi sibling elementini toping.
+const elitemchild = document.querySelector('.itemchildd');
+const SiblingElement = elitemchild.nextElementSibling;
+console.log(SiblingElement);
+// 4.Oldingi Sibling Elementni Topish
+// Shart: Berilgan elementning oldingi sibling elementini toping.
+const elitemchildd = document.querySelector('.itemchild');
+const SiblingElementd = elitemchild.nextElementSibling;
+console.log(SiblingElementd);
+// 5.Parent Elementiga Class Qo'shish
+// Shart: Berilgan elementning parent elementiga yangi class qo'shing.
+// 6.Children Elementlariga Class Qo'shish
+// Shart: Berilgan elementning barcha children elementlariga yangi class qo'shing.
+// 7.Parent Elementni O'chirish
+// Shart: Berilgan elementning parent elementini o'chirib tashlang.
+// 8. Children Elementlarni O'chirish
+// Shart: Berilgan elementning barcha children elementlarini o'chirib tashlang.
+// 9.Keyingi Sibling Elementni O'chirish
+// Shart: Berilgan elementning keyingi sibling elementini o'chirib tashlang.
+// 10.Oldingi Sibling Elementni O'chirish
+// Shart: Berilgan elementning oldingi sibling elementini o'chirib tashlang.
+// 11. Parent Elementga Text Qo'shish
+// Shart: Berilgan elementning parent elementiga matn qo'shing.
+// 12.Children Elementlarga Text Qo'shish
+// Shart: Berilgan elementning barcha children elementlariga matn qo'shing.
+// 13.Sibling Elementlarga Text Qo'shish
+// Shart: Berilgan elementning barcha sibling elementlariga matn qo'shing.
+// 14.Parent Elementni Style O'zgartirish
+// Shart: Berilgan elementning parent elementining CSS style ni o'zgartiring.
+// 15.Children Elementlarning Style ni O'zgartirish
+// Shart: Berilgan elementning barcha children elementlarining CSS style ni o'zgartiring.
+// 16.Sibling Elementlarning Style ni O'zgartirish
+// Shart: Berilgan elementning barcha sibling elementlarining CSS style ni o'zgartiring.
+// 17.Sibling Elementlarga Attribute Qo'shish
+// Shart: Berilgan elementning barcha sibling elementlariga yangi attribute qo'shing.
+// 18. Parent Elementdan Attribute O'chirish
+// Shart: Berilgan elementning parent elementidan attribute ni o'chiring.
+// 19.Sibling Elementlardan Attribute O'chirish
+// Shart: Berilgan elementning barcha sibling elementlaridan attribute ni o'chiring.
+// 20.Children Elementlarning Style ni O'zgartirish
+// Shart: Berilgan elementning barcha children elementlarining CSS style ni o'zgartiring.
